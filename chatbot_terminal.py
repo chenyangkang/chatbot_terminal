@@ -5,7 +5,7 @@ import os
 
 def ask_chatgpt():
     import openai
-    openai.api_key = "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"
+    openai.api_key = "******"
     new_input='User: Hello!'
     historical_infos = ''
     prompt = historical_infos + '\n' + new_input + '\n'
